@@ -1,19 +1,19 @@
 record_id,source_record_ids,company_name,website,first_name,last_name,job_title,email,city,state,country,qa_status,qa_notes
-C01,R01; R07,Brightfield Labs,brightfield.example,Sarah,Kim,Marketing Director,sarah.kim@brightfield.example,Austin,TX,United States,Ready,Exact duplicate merged (R07 removed). Formatting standardized.
-C02,R02; R14,Oakridge Software,oakridge.example,Daniel,Price,CTO,daniel.price@oakridge.example,Boston,MA,United States,Ready,Exact duplicate merged (R14 removed).
-C03,R03,Acme Analytics Inc,acmeanalytics.example,Rita,Gomez,VP Sales,rita.gomez@acmeanalytics.example,Denver,CO,United States,Ready,Company name standardized to match R12.
-C04,R04,Meridian Health Tech,meridianhealth.example,Tom,O'Neill,Head of Operations,tom.oneill@meridianhealth.example,Chicago,IL,United States,Ready,Capitalization fixed.
+C01,R01; R07,Brightfield Labs,brightfield.example,Sarah,Kim,Marketing Director,sarah.kim@brightfield.example,Austin,TX,United States,Ready,"Exact duplicate merged (R07 removed). Whitespace, capitalization, website, location and country standardized."
+C02,R02; R14,Oakridge Software,oakridge.example,Daniel,Price,CTO,daniel.price@oakridge.example,Boston,MA,United States,Ready,Exact duplicate merged (R14 removed). Title whitespace trimmed; website and country standardized.
+C03,R03,Acme Analytics Inc,acmeanalytics.example,Rita,Gomez,VP Sales,rita.gomez@acmeanalytics.example,Denver,CO,United States,Ready,Company name standardized to match R12; state and country standardized.
+C04,R04,Meridian Health Tech,meridianhealth.example,Tom,O'Neill,Head of Operations,tom.oneill@meridianhealth.example,Chicago,IL,United States,Ready,"Capitalization, state and country standardized."
 C05,R05,Bluepeak Systems,bluepeak.example,Lena,Ortiz,Sales Manager,,Seattle,WA,United States,Needs research,"Invalid email format in source (double @). Cleared, not guessed."
 C06,R06,Bluepeak Systems,bluepeak.example,Mark,Chen,Account Executive,,Seattle,WA,United States,Needs research,"Invalid email format in source (no domain extension). Cleared, not guessed."
 C07,R08,Fernhill Logistics,fernhill.example,Arjun,Mehta,Operations Manager,arjun.mehta@fernhill.example,Atlanta,GA,United States,Ready,Country standardized.
-C08,R09,Quillstone Media,quillstone.example,Nora,Blake,Creative Director,,New York,NY,United States,Needs research,Email missing in source.
+C08,R09,Quillstone Media,quillstone.example,Nora,Blake,Creative Director,,New York,NY,United States,Needs research,Email missing in source. Country standardized.
 C09,R10,Harlow & Finch,harlowfinch.example,Ben,Carter,Managing Partner,ben.carter@harlowfinch.example,Miami,FL,United States,Ready,City/state split into separate fields.
-C10,R11,Stonebrook Dental Group,stonebrook.example,Julia,Reyes,Practice Manager,,Phoenix,AZ,United States,Needs research,"Invalid email format in source (space instead of dot). Cleared, not guessed."
+C10,R11,Stonebrook Dental Group,stonebrook.example,Julia,Reyes,Practice Manager,,Phoenix,AZ,United States,Needs research,"Invalid email format in source (space inside address). Cleared, not guessed. Country standardized."
 C11,R12,Acme Analytics Inc,acmeanalytics.example,Kevin,Lee,Director of Marketing,kevin.lee@acmeanalytics.example,Denver,CO,United States,Ready,"Company name and website standardized. Different contact from R03, so kept."
 C12,R13,Tallgrass Energy Services,tallgrass.example,,,Procurement Lead,procurement@tallgrass.example,Tulsa,OK,United States,Needs research,Contact name missing; email is a role-based address.
 C13,R15,Willowbank Foods,willowbank.example,Amir,Haddad,Category Manager,amir.haddad@willowbank.example,Portland,OR,United States,Ready,Extra whitespace removed.
-C14,R16,,,Chloe,Martin,Office Manager,chloe.martin@gmail.example,Raleigh,NC,United States,Needs research,"Company and website missing; email uses a free-mail style domain, so company cannot be inferred."
+C14,R16,,,Chloe,Martin,Office Manager,chloe.martin@gmail.example,Raleigh,NC,United States,Needs research,"Company and website missing; email uses a free-mail style domain, so company cannot be inferred. Country standardized."
 C15,R17,Kestrel Robotics,kestrelrobotics.example,Victor,Nguyen,VP Engineering,victor.nguyen@kestrelrobotics.example,San Jose,CA,United States,Ready,No changes needed.
 C16,R18,Larkspur Insurance,larkspur.example,Emily,Ward,Claims Director,emily.ward@larkspur.example,Hartford,CT,United States,Needs review,"Possible duplicate of R19 (same name and company, different email). Kept both; client to confirm."
 C17,R19,Larkspur Insurance,larkspur.example,Emily,Ward,"Director, Claims",e.ward@larkspur.example,Hartford,CT,United States,Needs review,Possible duplicate of R18. Kept both; client to confirm.
-C18,R20,Northwind Outfitters,northwind.example,Grace,Lin,E-commerce Manager,grace.lin@northwind.example,Salt Lake City,UT,United States,Ready,State standardized to two-letter code.
+C18,R20,Northwind Outfitters,northwind.example,Grace,Lin,E-commerce Manager,grace.lin@northwind.example,Salt Lake City,UT,United States,Ready,State and country standardized.
