@@ -1,0 +1,21 @@
+record_id,company_name,website,first_name,last_name,job_title,email,city,state,country
+R01,  Brightfield Labs ,http://www.brightfield.example/,sarah,KIM,Marketing Director,sarah.kim@brightfield.example,"Austin, TX",,USA
+R02,Oakridge Software,oakridge.example,Daniel,Price,  CTO,daniel.price@oakridge.example,Boston,MA,United States
+R03,ACME ANALYTICS INC.,acmeanalytics.example,Rita,Gomez,VP Sales,rita.gomez@acmeanalytics.example,Denver,Colorado,U.S.
+R04,Meridian Health Tech,meridianhealth.example,tom,o'neill,head of operations,tom.oneill@meridianhealth.example,chicago,il,US
+R05,Bluepeak Systems,bluepeak.example,Lena,Ortiz,Sales Manager,lena.ortiz@@bluepeak.example,Seattle,WA,United States
+R06,Bluepeak Systems,bluepeak.example,Mark,Chen,Account Executive,mark.chen@bluepeak,Seattle,WA,United States
+R07,Brightfield Labs,brightfield.example,Sarah,Kim,Marketing director, SARAH.KIM@BRIGHTFIELD.EXAMPLE ,Austin,TX,United States
+R08,Fernhill Logistics,fernhill.example,Arjun,Mehta,Operations Manager,arjun.mehta@fernhill.example,Atlanta,GA,united states
+R09,Quillstone Media,quillstone.example,Nora,Blake,Creative Director,,New York,NY,USA
+R10,Harlow & Finch,harlowfinch.example,Ben,Carter,Managing Partner,ben.carter@harlowfinch.example,"Miami, Florida",,United States
+R11,Stonebrook Dental Group,stonebrook.example,Julia,Reyes,Practice Manager,julia reyes@stonebrook.example,Phoenix,AZ,USA
+R12,"Acme Analytics, Inc",www.acmeanalytics.example,Kevin,Lee,Director of Marketing,kevin.lee@acmeanalytics.example,Denver,CO,United States
+R13,Tallgrass Energy Services,tallgrass.example,,,Procurement Lead,procurement@tallgrass.example,Tulsa,OK,United States
+R14,Oakridge Software,OAKRIDGE.EXAMPLE,Daniel,Price,CTO,daniel.price@oakridge.example,Boston,MA,USA
+R15,Willowbank Foods,willowbank.example,Amir,Haddad,Category Manager,amir.haddad@willowbank.example,  Portland ,OR,United States
+R16,,,Chloe,Martin,Office Manager,chloe.martin@gmail.example,Raleigh,NC,USA
+R17,Kestrel Robotics,kestrelrobotics.example,Victor,Nguyen,VP Engineering,victor.nguyen@kestrelrobotics.example,San Jose,CA,United States
+R18,Larkspur Insurance,larkspur.example,Emily,Ward,Claims Director,emily.ward@larkspur.example,Hartford,CT,United States
+R19,Larkspur Insurance,larkspur.example,Emily,Ward,"Director, Claims",e.ward@larkspur.example,Hartford,CT,United States
+R20,Northwind Outfitters,northwind.example,Grace,Lin,E-commerce Manager,grace.lin@northwind.example,Salt Lake City,Utah,USA
